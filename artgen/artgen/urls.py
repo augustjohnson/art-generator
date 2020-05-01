@@ -18,5 +18,6 @@ from django.urls import include, path
 
 urlpatterns = [
     path('svg/', include('svg.urls')),
+    #path('maze/', include('maze.urls')),
     path('admin/', admin.site.urls),
 ]
